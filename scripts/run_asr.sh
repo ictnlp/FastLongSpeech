@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PYTHONPATH=/data/guoshoutao/LongSpeechLLMs/FastLongSpeech
+export PYTHONPATH=the_path_of_the_program
 EXP=exp_dir
 TRAIN_DIR=train_dir
 BASE_MODEL=base_model

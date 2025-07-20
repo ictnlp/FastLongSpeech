@@ -1,5 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0
-export PYTHONPATH=/data/guoshoutao/LongSpeechLLMs/FastLongSpeech
+export PYTHONPATH=the_path_of_the_program
+
 
 MODEL=model_dir
 LORA=lora_dir

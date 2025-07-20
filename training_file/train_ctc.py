@@ -14,7 +14,7 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 import sys
-sys.path.append('/data/guoshoutao/LongSpeechLLMs')
+
 from deepspeed.utils import safe_get_full_fp32_param, safe_get_full_grad, safe_get_full_optimizer_state
 import os
 import pathlib

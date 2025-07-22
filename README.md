@@ -1,5 +1,6 @@
 # FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing
 
+[![paper](https://img.shields.io/badge/arXiv-FastLongSpeech-blue)](https://arxiv.org/abs/2507.14815)
 [![model](https://img.shields.io/badge/Model-FastLongSpeech-orange)](https://huggingface.co/ICTNLP/FastLongSpeech)
 [![dataset](https://img.shields.io/badge/Dataset-LongSpeech_Eval-blue)](https://huggingface.co/datasets/ICTNLP/LongSpeech-Eval)
 
@@ -152,7 +153,15 @@ deepspeed --include localhost:0,1,2,3,4,5,6,7 --master_port 29602 FastLongSpeech
 If this repository is useful for you, please cite as:
 
 ```
-
+@misc{guo2025fastlongspeechenhancinglargespeechlanguage,
+      title={FastLongSpeech: Enhancing Large Speech-Language Models for Efficient Long-Speech Processing}, 
+      author={Shoutao Guo and Shaolei Zhang and Qingkai Fang and Zhengrui Ma and Min Zhang and Yang Feng},
+      year={2025},
+      eprint={2507.14815},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.14815}, 
+}
 ```
 
 If you have any questions, please feel free to submit an issue or contact `guoshoutao22z@ict.ac.cn`.
